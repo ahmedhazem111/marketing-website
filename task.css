@@ -694,7 +694,106 @@ input[type="submit"]:hover{
     opacity: 0.3;
     cursor: pointer;
 }
+@media (max-width: 768px) {
 
+    /* Header */
+    .header {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .header a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Start section */
+    .start {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* Main image */
+    .mm img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .mm p {
+        left: 20px;
+        top: 10px;
+    }
+
+    /* Services */
+    .des,
+    .bra,
+    .con,
+    .pro {
+        display: block;
+        width: auto;
+        margin: 20px;
+    }
+
+    /* Pricing */
+    .plans {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .bas,
+    .pprroo,
+    .pre {
+        width: 90%;
+        max-width: 315px;
+    }
+
+    .bas div,
+    .pprroo div,
+    .pre div {
+        width: 100%;
+    }
+
+    /* About cards */
+    #about,
+    #aboutwo,
+    #abouth {
+        display: block;
+        width: 90%;
+        max-width: 350px;
+        margin: 30px auto;
+    }
+
+    #about img,
+    #aboutwo img,
+    #abouth img {
+        width: 100%;
+        height: 235px;
+    }
+
+    /* Contact form */
+    #form {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+    }
+
+    #form input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        margin-left: 20px;
+        width: calc(100% - 40px);
+    }
+
+    /* Footer */
+    .end {
+        width: auto;
+    }
+}
 
 
 
